@@ -1,7 +1,7 @@
 
 import java.util.*;
-public class BullsAndCows {
-   
+public class BullsAndCows 
+{
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int user_no[]=new int[4];
@@ -70,7 +70,7 @@ public class BullsAndCows {
     }
     private static void rules(){
         System.out.println("Let me Introduce you to the Rules.\nGuess any four digit no,if the digit match with the one of the no persent in the computer's no with same indexing then you get +1 bulls.If the index do not match then you get +1 cow");
-        System.out.println("Example:\nSecret no:4271\nOppnent's no:1234\nSo you get 1 bull for 2 and two cows for four and one.\nHope you got it.");
+        System.out.println("Example:\nSecret no:4271\nOppnent's no:1234\nSo you get 1 bull for 2 and two cows for four and one.\n Hope you got it.");
         System.out.println("Computer has decided its no");
     } 
     private static boolean continuethegame(int[] comp_no,int[]user_no){
